@@ -677,7 +677,7 @@ footer h4{
         padding: 0;
     }
 }
-@media screen and (max-width:550px)
+@media screen and (max-width:600px)
 {
     * {
         box-sizing: border-box;
@@ -686,15 +686,14 @@ footer h4{
       }
       html,body{
         overflow-x: hidden;
-        overflow-y: scroll;
       }
     body{
         margin: 0px;
         padding: 0px;
         background-image: url(https://preview.colorlib.com/theme/universityedu/assets/img/hero/h1_hero1.jpg.webp);
-        background-position-y: 166px;
+        background-position-y: 1.6%;
         background-repeat: no-repeat;
-        background-size: 100% 75vh;
+        background-size: 100% 45vh;
         font-family: "Chivo", sans-serif;
     }
     .topbar{
@@ -908,6 +907,9 @@ footer h4{
         color: white;
         font-weight: 900;
     }
+    .content .main_content{
+        margin-top: 10%;
+    }
     .content .main_content h5{
         margin: 0px;
         color: white;
@@ -953,14 +955,14 @@ footer h4{
         padding-bottom: 10px;
     }
     .CTA .CTA_img{
-        margin-right: 66%;
+        width: 100%;
         display: inline;
         padding-left: 0px;
         margin-left: 0px;
     }
     .CTA .CTA_img img{
-        width:400px;
-        height: 300px;
+        width:75%;
+        height: 100%;
     }
     .CTA .CTA_desc h1,p{
         color: rgb(126, 122, 122);
@@ -1118,9 +1120,9 @@ footer h4{
         align-items: center;
         justify-content: center;
     }
-    
-    .Stories .topics img{
-        width: 90%;
+    .Stories .topics:where(.topic1, .topic2, .topic3) {
+        width: 100%;
+        height: 75%;
     }
     .Stories .topics p{
         font-size: 0.9rem;
