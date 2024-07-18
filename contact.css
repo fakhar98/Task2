@@ -1,0 +1,697 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+    background-image: url(https://preview.colorlib.com/theme/universityedu/assets/img/hero/h1_hero1.jpg.webp);
+    background-position-y: -56px ;
+    background-size: 100% 20%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: "Chivo", sans-serif;
+}
+.topbar{
+    background-color: #32404D;
+}
+.topbar .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.topbar .container .text{
+    display: flex;
+}
+.topbar .container .text h4{
+    color: #007A5C;
+    font-size: 1.0rem;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.topbar .container .text p{
+    color: white;
+    font-size: 1.0rem;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.topbar .container .countdown{
+    display: flex;
+}
+.topbar .container .countdown span{
+    color: white;
+    font-size: 1.0rem;
+    opacity: 0.6;
+}
+.topbar .container .countdown p{
+    color: #007A5C;
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+.topbar .container .countdown div{
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+    flex-basis: 50px;
+}
+.LM{
+    margin-top: 30px ;
+}
+.LM a{
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+    font-size: 1.4rem;
+    margin: 0px;
+}
+.LM a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    transition: 0.3s ease 0s;
+}
+nav .Rcontent a img{
+    height: 20px;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+nav .Lcontent{
+    display: flex;
+    gap: 38px;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+nav .Lcontent img{
+    height: 50px;
+}
+nav .Lcontent a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav .Lcontent a:hover{
+    color: #007A5C;
+    transition: 0.2s ease 0s;
+}
+#dropdown {
+    position: relative;
+    opacity: 0;
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: none;
+    z-index: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #dropdown:hover{
+    cursor: pointer;
+    color: #007A5C;
+    transition: 0.2s ease 0s;
+  }
+#dropdown:checked ~ .dropdown-menu {
+    display: block;
+}
+  
+  .dropdown-menu li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+  }
+nav .Rcontent{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+nav .Rcontent h2,p{
+    font-size: 1.4rem;
+}
+nav .Rcontent p{
+    font-size: 1.4rem;
+}
+nav .Rcontent .navbar{
+    display: none;
+}
+nav .Rcontent h2{
+    color: #007A5C;
+}
+nav .Rcontent p{
+    color: black;
+}
+nav .Rcontent a:hover{
+    transform: rotateY(360deg);
+    transition: 1s ease 0s;
+}
+.content .main_content{
+    margin-left: 140px;
+}
+.content .main_content h1{
+    margin-top: 250px;
+    text-align: left;
+    color: white;
+    font-weight: 900;
+}
+.content .main_content p{
+    margin-top: 30px;
+    text-align: left;
+    color: white;
+}
+.content .main_content p{
+    margin-left: 0px;
+}
+.Gmap{
+    margin-top: 700px; 
+    margin-bottom: 200px;   
+}
+.Gmap iframe{
+    display: flex;
+    margin-left: 280px;
+    width: 70%;
+    height:700px;
+    align-items: center;
+}
+.GetinTouch{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+input{
+    border: 1px solid gainsboro;
+    color: rgb(180, 180, 180);
+    border: 10%;
+}
+.GetinTouch .infos img{
+    height: 35px;
+    display: inline;
+}
+.GetinTouch .GetinTouch_content{
+    gap: 50px;
+}
+.GetinTouch .GetinTouch_content a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #007A5C;
+    border: 2px solid #007A5C;
+    text-decoration: none;
+}
+.GetinTouch .GetinTouch_content p{
+    color: #007A5C;
+    font-weight: 300;
+    margin: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.GetinTouch .GetinTouch_content a:hover{
+    background-color: #007A5C;
+    color: white;
+    transition: 0.4s ease 0s;
+}
+.GetinTouch .GetinTouch_content p:hover{
+    color: white;
+}
+#message{
+    width: 1088px;
+    height: 20%;
+    margin-bottom: 20px;
+}
+#name,#mail{
+    width: 540px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+#subject{
+    width: 1088px;
+    height: 40px;
+    display: block;
+}
+.GetinTouch .main_info{
+    display: flex;
+    flex-direction: row;
+}
+#info {
+    font-size: 0.6rem;
+    color: black;
+    
+}
+footer{
+    padding-top: 90px;
+    background-color: #32404D;
+    padding-bottom: 30px;
+}
+footer .footer{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 90px;
+}
+footer .footer ul{
+    list-style-type: none;
+}
+footer .footer ul li{
+    font-weight: 200;
+    font-size: 21px;
+    margin-bottom: 12px;
+    color: #cee7e2;
+}
+#searchbox{
+    width: 70%;
+    height: 50px;
+}
+#submitting{
+    width: 14%;
+    height: 52px;
+    background-color: #007A5C;
+    border: none;
+    cursor: pointer;
+}
+footer h4{
+    text-align: center;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 200;
+}
+#Fanchors{
+    text-decoration: none;
+}
+#Fanchors:hover{
+    color: #003f2f;
+    text-decoration: underline;
+    transition: 0.3s ease 0s;
+}
+@media screen and (max-width:1230px){
+    nav .Lcontent a{
+        display: none;
+    }
+    nav .Lcontent .dropdown{
+        display: none;
+    }
+    nav .Rcontent .navbar {
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        color: white;
+        flex-direction: column;
+    }
+    ul.navbar{
+        padding: 0px;
+        margin: 0px;
+    }
+    .menu-icon {
+        display: none;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    .menu a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-color: #ffffff;
+        position: fixed;
+        top: 0;
+        left: -120%;
+        width: 100%;
+        height: 100vh;
+        padding: 10px;
+        text-align: center;
+        z-index: 1000; 
+        transition: left 0.3s ease;
+    }
+    .menu a {
+        color: rgb(0, 0, 0);
+        font-size: 2rem;
+        text-decoration: none;
+        z-index: 1001; 
+        font-family: "Abril Fatface", times, serif;;
+    }
+    .navbar #check .menu-icon img{
+        height: 15px;
+    }
+    #check:checked ~ .menu {
+        left: 0;
+    }
+    #close:checked ~ .menu {
+        left: -120%;
+    } 
+    input[type='checkbox'] {
+        display: none;
+    }
+    
+    input[type='checkbox'] + label {
+        background: url('/Pictures/checkbox_unchecked.jpg') no-repeat;
+        height: 30px;
+        width: 30px;
+        background-size: 100%;
+        display: inline-block;
+        padding: 0;
+    }
+    
+    input[type='checkbox']:checked + label {
+        background: url('Pictures/checkbox_checked.jpg') no-repeat;
+        height: 50px;
+        width: 200px;
+        background-size: 100%;
+        display: inline-block;
+        padding: 0;
+    }
+}
+@media screen and (max-width:550px)
+{
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html,body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+      }
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: url(https://preview.colorlib.com/theme/universityedu/assets/img/hero/h1_hero1.jpg.webp);
+        background-position-y: 166px;
+        background-repeat: no-repeat;
+        background-size: 100% 45vh;
+        font-family: "Chivo", sans-serif;
+    }
+    .topbar{
+        background-color: #32404D;
+    }
+    .topbar .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .topbar .container .text{
+        display: flex;
+    }
+    .topbar .container .text h4{
+        color: #007A5C;
+        font-size: 0.6rem;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+    .topbar .container .text p{
+        color: white;
+        font-size: 0.6rem;
+        font-weight: 500;
+        margin: 0px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .topbar .container .countdown{
+        display: flex;
+    }
+    .topbar .container .countdown span{
+        color: white;
+        font-size: 0.4rem;
+        opacity: 0.6;
+    }
+    .topbar .container .countdown p{
+        color: #007A5C;
+        font-weight: 800;
+        font-size: 0.7rem;
+        margin: 0px;
+    }
+    
+    .topbar .container .countdown div{
+        margin-bottom: 0px;
+        margin-left: 20px;
+        margin-top: 20px;
+        flex-basis: 50px;
+    }
+    .LM{
+        margin-top: 30px ;
+    }
+    .LM a{
+        color: white;
+        text-decoration: none;
+        text-decoration: underline;
+        font-size: 0.6rem;
+        margin: 0px;
+    }
+    .LM a:hover{
+        color: rgb(255, 255, 255);
+        font-size: 0.7rem;
+        transition: 0.3s ease 0s;
+    }
+    nav .Rcontent a img{
+        height: 20px;
+    }
+    nav{
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        width: 100%;
+    }
+    nav .Lcontent{
+        display: flex;
+        gap:20px;
+        align-items: center;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    nav .Lcontent img{
+        height: 50px;
+    }
+    nav .Lcontent a{
+        display: none;
+    }
+    nav .Lcontent .dropdown{
+        display: none;
+    }
+    .dropdown h2{
+        font-size: 0.7rem;
+    }
+    #dropdown {
+        position: relative;
+        opacity: 0;
+      }
+      .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 40%;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 10px;
+        display: none;
+        z-index: 1;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      #dropdown:hover{
+        cursor: pointer;
+        color: #007A5C;
+        transition: 0.2s ease 0s;
+      } 
+      nav .Rcontent h2{
+        font-size: 0.6rem;
+    }
+    nav .Rcontent p{
+        margin-top: 0px;
+        font-size: 0.6rem;
+    }
+    nav .Lcontent img{
+        height: 30px;
+    }
+    nav .Rcontent a img{
+        height: 15px;
+    }
+    nav .Rcontent h2{
+        margin-left: 10px;
+    }
+    nav .Rcontent p{
+        margin-left: 0px;
+    }
+    nav .Rcontent .navbar {
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        color: white;
+        flex-direction: column;
+    }
+    ul.navbar{
+        padding: 0px;
+        margin: 0px;
+    }
+    .menu-icon {
+        display: none;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    .menu a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-color: #ffffff;
+        position: fixed;
+        top: 0;
+        left: -120%;
+        width: 100%;
+        height: 100vh;
+        padding: 10px;
+        text-align: center;
+        z-index: 1000; 
+        transition: left 0.3s ease;
+    }
+    .menu a {
+        color: rgb(0, 0, 0);
+        font-size: 2rem;
+        text-decoration: none;
+        z-index: 1001; 
+        font-family: "Abril Fatface", times, serif;;
+    }
+    .navbar #check .menu-icon img{
+        height: 15px;
+    }
+    #check:checked ~ .menu {
+        left: 0;
+    }
+    #close:checked ~ .menu {
+        left: -120%;
+    } 
+    input[type='checkbox'] {
+        display: none;
+    }
+    
+    input[type='checkbox'] + label {
+        background: url('/Pictures/checkbox_unchecked.jpg') no-repeat;
+        height: 30px;
+        width: 30px;
+        background-size: 100%;
+        display: inline-block;
+        padding: 0;
+    }
+    
+    input[type='checkbox']:checked + label {
+        background: url('Pictures/checkbox_checked.jpg') no-repeat;
+        height: 50px;
+        width: 200px;
+        background-size: 100%;
+        display: inline-block;
+        padding: 0;
+    }
+    .content .main_content{
+        margin-left: 20px;
+    }
+    .content .main_content h1{
+        font-size: 1.9rem;
+        color: white;
+        font-weight: 900;
+    }
+    .content .main_content h5{
+        margin: 0px;
+        font-size: 0.9rem;
+        color: white;
+        font-weight: 900;
+    }
+    .content .main_content p{
+        margin: 0px;
+        color: white;
+        font-weight: 400;
+    }
+    .content button{
+        background-color: #007A5C;
+        color: white;
+        display: block;
+        margin: 0px;
+        border: none;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+    .content button:hover{
+        background-color: transparent;
+        border: 1px solid white;
+        transition: 1s ease 0s;
+    }
+    .content button p{
+        margin-left: 10px;
+        font-size: 60%;
+        margin-right: 10px;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        font-weight: 200;
+        color: white;
+    }
+    .Gmap{
+        display: none;
+    }
+    .GetinTouch{
+        margin-top: 70px;
+    }
+    footer .footer{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 90px;
+    }
+    footer .footer ul{
+        list-style-type: none;
+    }
+    footer .footer ul li{
+        font-weight: 200;
+        font-size: 21px;
+        margin-bottom: 12px;
+        color: #cee7e2;
+    }
+    #searchbox{
+        width: 70%;
+        height: 50px;
+    }
+    #submitting{
+        width: 14%;
+        height: 52px;
+        background-color: #007A5C;
+        border: none;
+        cursor: pointer;
+    }
+    footer h4{
+        text-align: center;
+        margin-bottom: 0px;
+        color: white;
+        font-weight: 200;
+    }
+    #Fanchors{
+        text-decoration: none;
+    }
+    #Fanchors:hover{
+        color: #02f5b8;
+        transition: 0.3s ease 0s;
+    }
+    
+}
